@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: salmon;
+
+}
+
+.box{
+    height: 30%;
+    width: 30%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.innerbox{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+button{
+    padding: .7vw 2.5vw;
+    border-radius: 10px;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+#inc{
+    background-color: rgb(30, 221, 30);
+}
+#res{
+    background-color: rgb(255, 62, 62);
+}
